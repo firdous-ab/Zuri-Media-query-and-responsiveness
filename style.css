@@ -4,6 +4,7 @@ index.html, body{
     font-family: 'Poppins', sans-serif;
   }
   
+  @media screen and (max-width:1440px) /*DESKTOP*/ {
   .header{
     min-height: 100vh;
     width: 100%;
@@ -13,3 +14,16 @@ index.html, body{
     position: relative;
     background-color: rgba(225, 21, 21, 0.654);
   }
+}
+
+@media screen and (max-width:375px) /*MOBILE*/ {
+    .header{
+        min-height: 100vh;
+        width: 100%;
+        background-image:url(images/bg-intro-mobile.png);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        background-color: rgba(225, 21, 21, 0.654);
+      }
+}
