@@ -4,13 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Media query and responsiveness</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section class="header">
-        
+        <main class="main-cont">
+            <div class="left-cont">
+               <h1 style="color: white;">Learn to code by<br>watching others</h1>
+               <p style="color: white;">See how experienced developers solve problems in real-time.<br>
+                  Watching scripted tutorials is great, but understanding how<br>
+                  developers think is invaluable.
+               </p>
+            </div>
 
+            <div class="right-cont">
+                <form action="/action_page.php">
+                    <div>
+                        <label for="First-name"></label>
+                        <input type="text" name="firstName" placeholder="First Name" required>
+                    </div>
+                   
+                    <div>
+                        <label for="Last-name"></label>
+                        <input type="text" name="lastName" placeholder="Last Name" required>
+                    </div>
+
+                    <div>
+                        <label for="Email-address"></label>
+                        <input type="email" name="E-address" placeholder="Email Address" required>
+                    </div>
+
+                    <div>
+                        <label for="Password"></label>
+                        <input type="password" name="password" placeholder="Password" required>
+                    </div>
+                </form>
+            </div>
+        </main>
     </section>
 </body>
 </html>
